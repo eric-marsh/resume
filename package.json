@@ -1,0 +1,17 @@
+{
+  "name": "eric-marsh-resume",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.10",
+    "prettier": "^3.6.1",
+    "prettier-plugin-tailwindcss": "^0.6.13",
+    "tailwindcss": "^4.1.10"
+  },
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/style/input.css -o ./src/style/output.css --watch",
+    "format": "prettier --write ."
+  }
+}
